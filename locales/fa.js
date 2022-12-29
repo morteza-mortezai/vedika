@@ -1,0 +1,23 @@
+export default {
+  vedika: 'ودیکا',
+  add_ads: 'ثبت آگهی',
+  main_page: "صفحه اصلی",
+  ads: "آگهی ها",
+  categories: "دسته بندی",
+  support: "تماس و پشتیبانی",
+  user_account: "حساب کاربری",
+  close: "بستن",
+  social_medium: 'شبکه های اجتماعی ',
+  easy_access: '(دسترسی راحت و سریع به آگهی ها)',
+  instagram: 'اینستاگرام',
+  insta_desc: 'بهترین پیج های اینستاگرام',
+  show_listing: 'مشاهده آگهی ها',
+  easy_mood: 'با استفاده از ودیکا با خیال راحت برای تبلیغات خود اقدام کنید .',
+  latest_ads: 'جدیدترین آگهی های ودیکا',
+  ads_price: 'تعرفه تبلیغات :',
+  see: 'مشاهده',
+  search_ads: 'جستجوی آگهی',
+  email_phone: 'تلفن همراه یا ایمیل',
+  password: 'کلمه عبور',
+  login: 'ورود'
+}

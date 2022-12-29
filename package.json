@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^0.8.1",
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@volar-plugins/prettier": "^1.1.5",
+    "nuxt": "3.0.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "tailwindcss-flip": "^1.0.0",
+    "vue-i18n": "^9.2.2"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.13",
+    "@nuxt-hero-icons/outline": "^1.0.1",
+    "@nuxt-hero-icons/solid": "^1.0.1",
+    "@pinia/nuxt": "^0.4.6",
+    "@vueform/multiselect": "^2.5.8",
+    "axios": "^1.2.1",
+    "daisyui": "^2.46.0",
+    "jenesius-vue-modal": "^1.8.2",
+    "pinia": "^2.0.28",
+    "vee-validate": "^4.7.3",
+    "vue3-carousel": "^0.2.0",
+    "yup": "^0.32.11"
+  }
+}
