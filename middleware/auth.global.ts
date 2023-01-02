@@ -14,6 +14,7 @@
 import { useAuthStore } from "~~/stores/auth.module"
 import { useUserInfo } from '@/composables/Services/auth'
 export default defineNuxtRouteMiddleware(async (to, from) => {
+  return
   const publicPages = ['/', '/reset-pass', '/auth/login', '/auth/register', '/forget-pass', '/new-media'];
   const authRequired = !publicPages.includes(to.path);
   const loggedIn = useAuthStore().loggedIn

@@ -61,27 +61,16 @@ const items = [
 			<!-- logo and menus-->
 			<div class="navbar-start">
 				<Bars2Icon class="toggler w-6 h-6 mr-2" @click="show = !show" />
-				<nuxt-link
-					class="normal-case text-2xl md:text-3xl lg:text-4xl mr-10"
-					:to="{ name: 'index' }"
-				>
+				<nuxt-link class="normal-case text-2xl md:text-3xl lg:text-4xl mr-10" :to="{ name: 'index' }">
 					{{ $t("vedika") }}
 				</nuxt-link>
 				<!-- pages -->
 				<div class="pages">
-					<nuxt-link
-						v-for="(item, i) in items"
-						:key="i"
-						class="nav normal-case mr-6"
-						:to="{ name: item.to }"
-					>
+					<nuxt-link v-for="(item, i) in items" :key="i" class="nav normal-case mr-6" :to="{ name: item.to }">
 						{{ $t(item.title) }}
 					</nuxt-link>
 					<!-- account -->
-					<nuxt-link
-						class="text-muted normal-case mr-6"
-						:to="{ name: 'panel' }"
-					>
+					<nuxt-link class="text-muted normal-case mr-6" :to="{ name: 'panel' }">
 						<UserCircleIcon class="w-6 h-6 inline" />
 						{{ $t("user_account") }}
 					</nuxt-link>
@@ -90,18 +79,11 @@ const items = [
 			<!-- new -->
 			<div class="navbar-end inline-flex items-center">
 				<select class="select select-sm outline-0" v-model="$i18n.locale">
-					<option
-						v-for="locale in $i18n.availableLocales"
-						:key="`locale-${locale}`"
-						:value="locale"
-					>
+					<option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">
 						{{ locale }}
 					</option>
 				</select>
-				<nuxt-link
-					class="btn-add btn btn-secondary rounded-full btn-sm px-5"
-					:to="{ name: 'panel-add-media' }"
-				>
+				<nuxt-link class="btn-add btn btn-secondary rounded-full btn-sm px-5" :to="{ name: 'panel-new-media' }">
 					{{ $t("add_ads") }}
 					<PlusIcon class="h-4 w-4 ml-1" />
 				</nuxt-link>
@@ -126,10 +108,7 @@ const items = [
 			<nuxt-link class="normal-case text-2xl mb-4" :to="{ name: 'index' }">
 				{{ $t("vedika") }}
 			</nuxt-link>
-			<div
-				class="cursor-pointer text-error flex items-center"
-				@click="show = false"
-			>
+			<div class="cursor-pointer text-error flex items-center" @click="show = false">
 				<outline-x-icon class="h-4 w-4" />
 				<div>{{ $t("close") }}</div>
 			</div>
@@ -143,7 +122,7 @@ const items = [
 		<!-- account -->
 		<div class="navcon">
 			<nuxt-link class="nav normal-case block" :to="{ name: 'index' }">
-				{{ $t("user_account") }}
+				("user_account") }}
 			</nuxt-link>
 		</div>
 	</nav>

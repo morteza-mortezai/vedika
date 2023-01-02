@@ -8,9 +8,8 @@ import LatestAds from "~~/components/HomePages/Index/LatestAds/Index.vue";
 // });
 </script>
 <template>
-	<HeroSec />
-	<img src="/images/index/divider.svg" class="mx-auto mt-24" />
-	<SocialList />
-	<LatestAds />
-	{{ $t("hi") }}
+    <HeroSec />
+    <img src="/images/index/divider.svg" class="mx-auto mt-24" />
+    <SocialList />
+    <LatestAds />
 </template>

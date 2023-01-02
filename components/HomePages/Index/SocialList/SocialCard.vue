@@ -12,7 +12,7 @@ defineProps<{
     <!-- avatar -->
     <div class="avatar">
       <div :class="['w-16 rounded-full p-4 ' ,color]">
-        <img :src="`/static/images/logos/${src}.svg`" width="40px" />
+        <img :src="`/images/logos/${src}.svg`" width="40px" />
       </div>
     </div>
     <!-- title -->

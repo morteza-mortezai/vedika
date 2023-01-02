@@ -19,5 +19,14 @@ export default {
   search_ads: 'جستجوی آگهی',
   email_phone: 'تلفن همراه یا ایمیل',
   password: 'کلمه عبور',
-  login: 'ورود'
+  login: 'ورود',
+  social:'شبکه اجتماعی',
+  title:'عنوان',
+  upto_three:'تا سه موضوع را می توانید انتخاب کنید',
+  not_related_specific_location:'اگر کانال شما مربوط به منطقه خاصی نیست این گزینه را خالی بگذارید',
+  add_new_channel:'افزودن کانال/پیج',
+  category:'دسته بندی',
+  location:'موقعیت مکانی',
+  follower_count:'تعداد دنبال کنندگان',
+  next:'بعدی'
 }

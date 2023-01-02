@@ -22,7 +22,7 @@ const p = defineProps<{
       <!-- avatar -->
       <div>
         <div :class="`icon p-1 w-6 h-6 rounded-full  bg-${type}`">
-          <img :src="`/static/images/logos/white/${logo}`" />
+          <img :src="`/images/logos/white/${logo}`" />
         </div>
         <img :src="src" class="object-cover w-16 h-16 rounded-full" />
       </div>

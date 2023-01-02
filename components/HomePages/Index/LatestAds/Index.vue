@@ -26,7 +26,7 @@ onMounted(async ()=>{
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-3  gap-4 mt-10" v-if="-1">
       <MediaCard v-for="(item,i) in data" :key="i" :title="item.title" :locales="item.locations" :cats="item.cats"
         :price="['300 هزار تومان','300 هزار بازدید']" :type="3" :dateTime="item.createdAt" :vip="true" id="123"
-        src="/static/images/a.jpg" logo="3.png" />
+        src="/images/a.jpg" logo="3.png" />
     </div>
  
     <!-- pagination -->

@@ -10,7 +10,6 @@
   "devDependencies": {
     "@intlify/unplugin-vue-i18n": "^0.8.1",
     "@nuxtjs/tailwindcss": "^6.2.0",
-    "@volar-plugins/prettier": "^1.1.5",
     "nuxt": "3.0.0",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
@@ -27,6 +26,7 @@
     "daisyui": "^2.46.0",
     "jenesius-vue-modal": "^1.8.2",
     "pinia": "^2.0.28",
+    "sweetalert2": "^11.6.16",
     "vee-validate": "^4.7.3",
     "vue3-carousel": "^0.2.0",
     "yup": "^0.32.11"

@@ -10,7 +10,7 @@
                ودیکا
 
             </h1>
-            <img src="/static/images/auth.svg" alt="" srcset="">
+            <img src="/images/auth.svg" alt="" srcset="">
             <h2 class="auth-card-logo-sub">
                بهترین ها را به شما معرفی می‌کنیم.
             </h2>

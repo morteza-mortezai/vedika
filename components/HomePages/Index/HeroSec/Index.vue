@@ -25,7 +25,7 @@ import SearchBox from "./SearchBox.vue";
     </div>
     <!-- second pic -->
     <div class="hidden md:block col-span-2  ">
-      <img src="/static/images/index/pic-right.svg" class="sideimg w-full" />
+      <img src="/images/index/pic-right.svg" class="sideimg w-full" />
     </div>
   </div>
 </template>
