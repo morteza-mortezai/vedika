@@ -63,6 +63,7 @@ const MediaTypes = ref([
 </script>
 <template>
 	<h1>{{ $t("add_new_channel") }}</h1>
+	<h2>step two</h2>
 	<form @submit.prevent="submit()" class="grid grid-cols-1 md:grid-cols-2 gutter:30">
 		<!-- mediaType -->
 		<div class="form-control w-full">

@@ -53,3 +53,6 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ---------
 بعد از زدن دکمه بعدی در استور دخیره شود و 
 به مرحله بعد بره
+-----------
+در مرحله یم عکس آپ شود
+برای ماندگار کردن استیت اقدامی لازم است

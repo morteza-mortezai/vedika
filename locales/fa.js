@@ -28,5 +28,6 @@ export default {
   category:'دسته بندی',
   location:'موقعیت مکانی',
   follower_count:'تعداد دنبال کنندگان',
-  next:'بعدی'
+  next:'بعدی',
+  addr:'آدرس'
 }
