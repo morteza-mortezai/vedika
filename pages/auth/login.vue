@@ -6,9 +6,10 @@ import { useForm, useField } from 'vee-validate';
 // import { useAuthStore } from '@/stores/auth.module'
 import * as yup from 'yup'
 // import { LoginIcon } from '@heroicons/vue/outline'
-import { notify } from "@kyvg/vue3-notification";
+// import { notify } from "@kyvg/vue3-notification";
 import { ILoginUser } from '~~/models/auth.model';
 import { useLogin } from '~~/composables/Services/Auth';
+import http from '@/services/helper/http'
 // import { VueRecaptcha } from 'vue-recaptcha';
 // state
 
@@ -49,7 +50,12 @@ const login = handleLogin(async (values) => {
 
   // Execute reCAPTCHA with action "login".
   // const token = await useVueRecaptcha();
-
+  try {
+    http.post('/login')
+  } catch (error) {
+    console.log('err', error)
+  }
+  return
   console.log('token', componentToken);
   values.token = 'dsf'
 
@@ -83,8 +89,8 @@ const login = handleLogin(async (values) => {
   <div>
     <!-- <button @click="tst">tst</button> -->
     <!-- <vue-recaptcha @verify="verifyMethod" sitekey="6LfJox8gAAAAADKmSv00wDuAYHZqpvkRmArUzyWv"></vue-recaptcha>
-    <button class="g-recaptcha" data-sitekey="6LfJox8gAAAAADKmSv00wDuAYHZqpvkRmArUzyWv" data-callback='onSubmit'
-      data-action='submit'>Submit</button> -->
+ <button class="g-recaptcha" data-sitekey="6LfJox8gAAAAADKmSv00wDuAYHZqpvkRmArUzyWv" data-callback='onSubmit'
+   data-action='submit'>Submit</button> -->
     {{ isSubmitting }}
     <form @submit.prevent="login()">
       <!-- email -->
@@ -112,7 +118,7 @@ const login = handleLogin(async (values) => {
           </span>
           <span class="label-text-alt text-error">
             <!-- <router-link :to="{ query: { authAction: 'forget-pass' } }" class="btn btn-sm btn-link">
-              فراموشی رمز عبور </router-link> -->
+           فراموشی رمز عبور </router-link> -->
           </span>
         </label>
       </div>
@@ -133,4 +139,3 @@ const login = handleLogin(async (values) => {
   </div>
 </template>
   
-   

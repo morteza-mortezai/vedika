@@ -1,10 +1,10 @@
 import { defineStore } from "pinia";
-import {  useUserInfo } from '@/composables/Services/Auth'
+import { useUserInfo } from '@/composables/Services/Auth'
 import type { ILoginUser } from "~~/models/auth.model";
 import { ref, computed } from 'vue'
 
 export const useAuthStore = defineStore('auth', () => {
-  const user = ref(null)
+  const user = ref('null')
   const loggedIn = computed(() => !!user.value)
 
   // register(user: ICreateUser) {

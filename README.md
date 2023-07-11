@@ -56,3 +56,6 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 -----------
 در مرحله یم عکس آپ شود
 برای ماندگار کردن استیت اقدامی لازم است
+---
+فیلم دیباگ دیده شود و بعدش لاگر
+و بعدش آپلود پیاده شود
